@@ -20,7 +20,7 @@ var parserGrammar = path.join(__dirname, 'generator.pegjs');
 var aruaGrammar = path.normalize(path.join(__dirname, '../../arua.grammar'));
 
 if (process.argv.length !== 3) {
-	console.error('missing the filename to check');
+	console.error('ERROR: Missing filename to parse');
 	process.exit(1);
 }
 
